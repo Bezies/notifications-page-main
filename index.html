@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+
+  <!-- JS  -->
+  <script src="app.js" defer></script>
+
+
+  <title>Frontend Mentor | Notifications page</title>
+
+
+</head>
+
+<body>
+
+
+  <main>
+
+    <div class="head">
+
+      <p>Notifications <span id="notif">3</span></p>
+
+      <a href="#" id="read">Mark all as read</a>
+
+    </div>
+
+    <h1 class="sr-only">Notifications page main</h1>
+
+
+
+    <div class="messages-new" id="mark">
+
+      <img src="assets/images/avatar-mark-webber.webp" alt="photo Mark" class="portrait">
+      <div class="box">
+        <p><a href="#" class="pseudo">Mark Webber</a> reacted to your recent post <a href="#" id="tournament">My first
+            tournament today!</a><span class="circlered"></span></p>
+        <small>1m ago</small>
+      </div>
+
+    </div>
+
+
+
+    <div class="messages-new">
+      <img src="assets/images/avatar-angela-gray.webp" alt="photo Angela" class="portrait">
+      <div class="box">
+        <p><a href="#" class="pseudo">Angela Gray</a> followed you<span class="circlered"></span></p>
+        <small>5m ago</small>
+      </div>
+    </div>
+
+
+
+
+    <div class="messages-new" id="jacob">
+      <img src="assets/images/avatar-jacob-thompson.webp" alt="photo Jacob" class="portrait">
+      <div class="box">
+        <p><a href="#" class="pseudo">Jacob Thompson</a> has joined your group <a href="#" class="chess">Chess Club</a>
+          <span class="circlered"></span></p>
+        <small>1 day ago</small>
+      </div>
+    </div>
+
+
+
+
+    <div class="messages">
+      <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="photo Rizky" class="portrait">
+      <div class="box">
+        <p><a href="#" class="pseudo">Rizky Hasanuddin</a> sent you a private message <span></span></p>
+        <small>5 days ago</small>
+      </div>
+    </div>
+    <div class="privateDM">
+      <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.</p>
+
+    </div>
+
+
+
+
+
+
+    <div class="messages">
+      <img src="assets/images/avatar-kimberly-smith.webp" alt="photo Kimberly" class="portrait">
+
+        <div class="box" id="kim-box">
+          <p><a href="#" class="pseudo">Kimberly Smith</a> commented on your picture <span></span></p>
+          <small>1 week ago</small>
+        </div>
+        <img src="assets/images/image-chess.webp" alt="image chess party" id="kim-chess">
+    </div>
+
+
+
+
+    <div class="messages" id="peterson">
+      <img src="assets/images/avatar-nathan-peterson.webp" alt="photo Nathan" class="portrait">
+      <div class="box">
+        <p><span id="nathan">Nathan Peterson </span> reacted to your recent post <a href="#" id="end-game">5 end-game
+            strategies to increase your win rate</a></p>
+        <small>2 weeks ago</small>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="messages">
+      <img src="assets/images/avatar-anna-kim.webp" alt="photo Mark" class="portrait">
+      <div class="box">
+        <p><a href="#" class="pseudo">Anna Kim</a> left the group <a href="#" class="chess"> Chess Club</a></p>
+        <small>2 weeks ago</small>
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/bezies" target="_blank">Quentin Bessiere</a>.
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
